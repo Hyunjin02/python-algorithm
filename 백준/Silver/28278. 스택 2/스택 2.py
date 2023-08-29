@@ -5,9 +5,9 @@ arr = []
 n=int(input().rstrip())
 for i in range(n):
     order_input = input().split()
-    order = int(order_input[0])
-    if len(order_input) > 1:
-        x = int(order_input[1])
+    order=int(order_input[0])
+    if(len(order_input)>1):
+        x=order_input[1]
 
     if(order==1):
         arr.append(x)
